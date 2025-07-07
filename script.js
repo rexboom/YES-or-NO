@@ -77,7 +77,7 @@ async function loadFeed() {
         <div class="space-y-3">
           <div>
             <div class="flex justify-between text-sm font-medium text-gray-700 mb-1">
-              <span>✅ Yes</span><span>${percent.yes}%</span>
+              <span>✅ Oui</span><span>${percent.yes}%</span>
             </div>
             <div class="vote-bar-container"><div class="vote-bar-fill vote-bar-yes" style="width: ${percent.yes}%"></div></div>
           </div>
@@ -89,7 +89,7 @@ async function loadFeed() {
           </div>
           <div>
             <div class="flex justify-between text-sm font-medium text-gray-700 mb-1">
-              <span>🤷 IDK</span><span>${percent.idk}%</span>
+              <span>🤷 JSP</span><span>${percent.idk}%</span>
             </div>
             <div class="vote-bar-container"><div class="vote-bar-fill vote-bar-idk" style="width: ${percent.idk}%"></div></div>
           </div>
