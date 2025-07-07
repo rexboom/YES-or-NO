@@ -1,0 +1,52 @@
+/* Additional custom styling if needed */
+.vote-bar {
+    height: 10px;
+    border-radius: 9999px;
+  }
+  .vote-bar-container {
+    width: 100%;
+    background: #e5e7eb;
+    border-radius: 9999px;
+    overflow: hidden;
+    height: 12px;
+    margin-top: 4px;
+  }
+  
+  .vote-bar-fill {
+    height: 100%;
+    border-radius: 9999px;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .vote-bar-yes {
+    background: linear-gradient(90deg, #22c55e, #16a34a); /* green gradient */
+    box-shadow: 0 0 5px #22c55e88;
+  }
+  
+  .vote-bar-no {
+    background: linear-gradient(90deg, #ef4444, #b91c1c); /* red gradient */
+    box-shadow: 0 0 5px #ef444488;
+  }
+  
+  .vote-bar-idk {
+    background: linear-gradient(90deg, #facc15, #eab308); /* yellow gradient */
+    box-shadow: 0 0 5px #facc1588;
+  }
+  @keyframes bouncePost {
+    0%   { transform: scale(1); }
+    30%  { transform: scale(1.1); }
+    50%  { transform: scale(0.95); }
+    100% { transform: scale(1); }
+  }
+  
+  .animate-bounce-post {
+    animation: bouncePost 0.4s ease-in-out;
+  }
+  @keyframes bouncePost {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+.animate-bounce-post {
+  animation: bouncePost 0.4s ease;
+}
